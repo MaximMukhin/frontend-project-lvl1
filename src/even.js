@@ -11,7 +11,7 @@ export const even = () => {
 
   for (let i = 0; i < 3; i++) {
 
-    const value = Math.floor(Math.random() * 100)
+    const value = Math.floor(Math.random() * 40)
     console.log(`Question: ${value}`)
     const answerUser = readlineSync.question('Your answer: ');
 

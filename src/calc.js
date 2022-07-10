@@ -9,8 +9,8 @@ export const calc = () => {
 
   for (let i = 0; i < 3; i++) {
 
-    const value = Math.floor(Math.random() * 100)
-    const value2 = Math.floor(Math.random() * 100)
+    const value = Math.floor(Math.random() * 20)
+    const value2 = Math.floor(Math.random() * 20)
     let sum = 0;
 
     if (Math.random() <= 0.66) {
